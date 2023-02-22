@@ -1,0 +1,16 @@
+.logo {
+  margin: 0 auto;
+  width: 60%;
+  margin-top: 200px;
+  margin-bottom: 150px;
+}
+.logo h2 {
+  text-align: center;
+  opacity: 0.4;
+}
+.logo .logo-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}/*# sourceMappingURL=logo.css.map */

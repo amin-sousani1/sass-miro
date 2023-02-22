@@ -1,0 +1,33 @@
+.box3 {
+  height: 500px;
+  width: 80%;
+  margin: 0 auto;
+}
+.box3 .h3 {
+  font-size: 40px;
+}
+.box3 .button {
+  display: flex;
+  justify-content: space-between;
+}
+.box3 .button div {
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: white;
+  border: 1px lightgray solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.box3 .content {
+  display: flex;
+  justify-content: space-between;
+}
+.box3 .content .info {
+  width: 40%;
+}
+.box3 .content .img {
+  width: 55%;
+}/*# sourceMappingURL=box3.css.map */

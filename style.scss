@@ -1,0 +1,32 @@
+@import "Components/variables/variables.scss";
+@import "Components/header/header.scss";
+@import "Components/button/button.scss";
+@import "Components/logo/logo.scss";
+@import "Components/box1/box1.scss";
+@import "Components/box2/box2.scss";
+@import "Components/box3/box3.scss";
+@import "Components/box4/box4.scss";
+@import "Components/box5/box5.scss";
+@import "Components/footer/footer.scss";
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.inside{
+    display: flex;
+    justify-content: space-between;
+}

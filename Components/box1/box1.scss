@@ -1,0 +1,71 @@
+@mixin margin-bottom(){
+    margin-bottom: 40px;
+}
+
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    // &.b{
+    //     // height:4000px; 
+    //     // background-color: red;
+    // }
+    }
+   
+    .box1{
+        width: 80%;
+        height: 500px;
+        
+        margin: 0 auto;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        .child1{
+            width:40%;
+            height: $heightall;
+            // background-color: aquamarine;
+            text-align: justify;
+            display: flex;
+            flex-direction: column;
+            // justify-content: space-evenly;
+            h1{
+                font-size: 50px;
+                @include margin-bottom
+            }
+            p{
+                font-size: 18px;
+                opacity: 0.8;
+                @include margin-bottom
+            }
+            input{
+                width: 400px;
+                height: 50px;
+                border-radius: 30px;
+                 margin-bottom: 8px;
+                
+            }
+            button{
+                @include margin-bottom
+            }
+            div{
+                display: flex;
+                border-radius: 20px;
+                justify-content: space-evenly;
+                padding-top: 14px;
+                height: 50px;
+                width: 350px;
+                background-color: coral;
+            }
+            
+            }
+            .child2{
+                width:55%;
+                height: $heightall;           
+                background-color: rgb(236, 252, 58);
+                img{
+                    height: $heightall;
+                    width: 100%;
+                }
+            }
+    }
+

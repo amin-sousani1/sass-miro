@@ -1,0 +1,55 @@
+.box5 {
+  height: 3000px;
+  width: 80%;
+  background-color: red;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.box5 .head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box5 .contai-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box5 .contai-card .card {
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 350px;
+  height: 400px;
+  background-color: blue;
+}
+.box5 .contai-card .card div {
+  display: flex;
+  align-items: center;
+}
+.box5 .contai-card .card div p {
+  padding-left: 20px;
+}
+.box5 .contai-card .card img {
+  width: 48px;
+  height: 48px;
+}
+.box5 .info {
+  height: 450px;
+  margin-top: 60px;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box5 .info h2 {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+.box5 .info p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}/*# sourceMappingURL=box5.css.map */

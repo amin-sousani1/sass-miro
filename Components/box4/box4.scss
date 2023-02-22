@@ -1,0 +1,52 @@
+.box4{
+    margin-top: 200px;
+    width: 100%;
+    background-color:$color-box;
+    height: 1000px;
+    .child{
+        margin: 0 auto;
+        width: 80%;
+        
+        .title{
+            
+            padding-top: 170px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            h2{
+                font-size: 50px;
+                margin-bottom: 20px;
+            }
+            p{
+                font-size: 24px;
+                text-decoration:underline black;
+            }
+            p:hover{
+                text-decoration: none;
+                cursor: pointer;
+            }
+        }
+        .info{
+            margin-top: 60px;
+            .row{
+                height: 300px;
+                display: flex;
+                justify-content: space-between;
+                .col{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    width: 300px;
+                    height: 230px;
+                    p{
+                        font-weight: bold;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+
+    }
+}

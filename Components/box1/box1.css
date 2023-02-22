@@ -1,0 +1,15 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.container.b {
+  height: 1000px;
+  background-color: greenyellow;
+}
+.container .box1 {
+  width: 90%;
+  height: 500px;
+  background-color: orange;
+  margin: 0 auto;
+  margin-top: 40px;
+}/*# sourceMappingURL=box1.css.map */
